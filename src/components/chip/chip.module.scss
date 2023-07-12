@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+
+.chipContainer {
+  padding: 10px 20px;
+  border: 1px solid $color-isabeline;
+  border-radius: 25px;
+  width: fit-content;
+  position: relative;
+}
+
+.badgeContainer {
+  position: absolute;
+  top: -11px;
+  right: -10px;
+  background-color: $color-khaki;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

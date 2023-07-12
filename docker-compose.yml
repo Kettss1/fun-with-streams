@@ -1,0 +1,10 @@
+# Compose for Jalin
+services:
+  fun-with-streams-frontend:
+    build:
+      context: .
+      target: runner
+    ports:
+      - "127.0.0.1:7296:7296"
+
+

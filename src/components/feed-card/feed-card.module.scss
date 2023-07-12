@@ -1,0 +1,33 @@
+.feedCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  background-color: #A99985;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.feedCardHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    > img {
+      border-radius: 25px;
+    }
+  }
+}
+
+.feedCardBadges {
+  display: flex;
+  gap: 5px;
+}
+
+.username {
+  font-size: 12px;
+}
